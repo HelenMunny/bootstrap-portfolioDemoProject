@@ -317,7 +317,7 @@ h2 {
   padding-top: 2rem;
 }
 .footer-sm {
-  font-size: 1.5rem;
+  font-size: 1.5rem !important;
   padding: 0.5rem;
 }
 .footer-sm:hover {
