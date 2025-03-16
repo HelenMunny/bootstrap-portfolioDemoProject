@@ -193,6 +193,9 @@ h2 {
   #education img {
     max-height: 30% !important;
   }
+  #carouselExampleControls img {
+    width: 100% !important;
+  }
 
   /* pencil */
   .cover {
@@ -296,7 +299,7 @@ h2 {
   border-radius: 0 4px 4px 0;
 }
 
-@-webkit-keyframes animate-pen {
+@keyframes animate-pen {
   0% {
     left: 18%;
     -webkit-transform: rotate(-45deg);
@@ -319,7 +322,7 @@ h2 {
   }
 }
 
-@-webkit-keyframes animate-pen-sm {
+@keyframes animate-pen-sm {
   0% {
     left: 35%;
     -webkit-transform: rotate(-45deg);
@@ -443,6 +446,27 @@ h2 {
 /* end of skills section */
 
 /* projects section */
+
+/* .design {
+  background: url(./images/coolers.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+} */
+
+#carouselExampleControls img {
+  margin: auto !important;
+  margin-top: 1.5rem !important;
+}
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+  filter: invert(100%);
+}
+.designs {
+  min-width: 95% !important;
+}
 
 .projects {
   background: linear-gradient(to right, #7f7fd584, #91eae47d);
