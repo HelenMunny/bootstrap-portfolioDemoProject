@@ -70,7 +70,7 @@ h2 {
 
 .banner {
   background: linear-gradient(to right, #7f7fd5d5, #91eae4d2),
-    url(./images/banner.png);
+    url(images/banner.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
