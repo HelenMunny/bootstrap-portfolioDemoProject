@@ -67,7 +67,7 @@ h2 {
 
 .banner {
   background: linear-gradient(to right, #7f7fd5d5, #91eae4d2),
-    url(../images/banner.PNG);
+    url(../images/banner.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -362,7 +362,7 @@ h2 {
 }
 
 #education {
-  background: url(../images/background.PNG);
+  background: url(../images/background.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
