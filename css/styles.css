@@ -51,7 +51,7 @@ h2 {
 .navbar-brand {
   font-weight: 800 !important;
   font-style: italic;
-  font-family: cursive;
+  font-family: monospace;
 }
 
 /* end of navbar */
@@ -67,12 +67,13 @@ h2 {
 
 .banner {
   background: linear-gradient(to right, #7f7fd5d5, #91eae4d2),
-    url(../images/banner.png);
+    url(../images/banner.PNG);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
   overflow: hidden;
+  background-size: 100% 100%;
 }
 .banner-text {
   min-height: 100vh;
@@ -178,6 +179,9 @@ h2 {
 }
 
 @media (max-width: 552px) {
+  .banner {
+    max-height: 200vh !important;
+  }
   .banner-main-heading {
     font-size: 3rem !important;
     padding-top: 16rem;
@@ -358,7 +362,7 @@ h2 {
 }
 
 #education {
-  background: url(../images/background.png);
+  background: url(../images/background.PNG);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
