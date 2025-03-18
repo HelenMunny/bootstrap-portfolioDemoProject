@@ -66,7 +66,7 @@ h2 {
 }
 
 .banner {
-  background: linear-gradient(to right, #7f7fd5d5, #91eae4d2), url(./banner.PNG);
+  background: linear-gradient(to right, #7f7fd5d5, #91eae4d2), url(banner.PNG);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -360,7 +360,7 @@ h2 {
 }
 
 #education {
-  background: url(./background.PNG);
+  background: url(background.PNG);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
