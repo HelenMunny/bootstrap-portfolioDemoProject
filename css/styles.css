@@ -68,7 +68,7 @@ h2 {
 .banner {
   background: linear-gradient(to right, #7f7fd5d5, #91eae4d2), url(banner.PNG);
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-position: center;
   background-size: cover;
   overflow: hidden;
@@ -83,7 +83,7 @@ h2 {
 }
 
 .banner-nameplate {
-  min-height: 100vh;
+  min-height: 90vh;
   position: relative;
 }
 .banner-nameplate-container {
@@ -95,7 +95,7 @@ h2 {
   border-radius: 10px;
   padding: 1.5rem;
   border: 2px solid rgb(10, 49, 243);
-  font-family: 'Indie Flower', cursive !important;
+  font-family: monospace;
   text-align: center;
 }
 
@@ -177,12 +177,9 @@ h2 {
 }
 
 @media (max-width: 552px) {
-  .banner {
-    max-height: 200vh !important;
-  }
   .banner-main-heading {
     font-size: 3rem !important;
-    padding-top: 16rem;
+    padding-top: 15rem;
     text-align: center;
   }
   .banner-btn {
@@ -198,11 +195,11 @@ h2 {
 
   /* pencil */
   .cover {
-    height: 50vh !important;
+    height: 40vh !important;
   }
   .center {
     width: 120px;
-    top: 220% !important;
+    top: 210% !important;
     left: 50%;
     -webkit-animation: animate-pen-sm 5s linear infinite;
     animation: animate-pen-sm 5s linear infinite;
@@ -240,7 +237,7 @@ h2 {
   border: 0.2px solid #0f317e;
   background: #0f317e;
   position: absolute;
-  top: 230%;
+  top: 210%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%) rotate(-45deg);
   transform: translate(-50%, -50%) rotate(-45deg);
@@ -362,7 +359,7 @@ h2 {
 #education {
   background: url(background.PNG);
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-position: center;
   background-size: cover;
   overflow: hidden;
