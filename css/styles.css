@@ -68,7 +68,7 @@ h2 {
 .banner {
   background: linear-gradient(to right, #7f7fd5d5, #91eae4d2), url(banner.PNG);
   background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-attachment: fixed;
   background-position: center;
   background-size: cover;
   overflow: hidden;
@@ -177,6 +177,12 @@ h2 {
 }
 
 @media (max-width: 552px) {
+  .banner {
+    background-attachment: scroll !important;
+  }
+  #education {
+    background-attachment: scroll !important;
+  }
   .banner-main-heading {
     font-size: 3rem !important;
     padding-top: 15rem;
@@ -359,7 +365,7 @@ h2 {
 #education {
   background: url(background.PNG);
   background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-attachment: fixed;
   background-position: center;
   background-size: cover;
   overflow: hidden;
